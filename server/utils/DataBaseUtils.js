@@ -14,6 +14,7 @@ export function listNotes(id) {
     return Note.find();
 }
 
+//создание новой заметки
 export function createNote(data) {
     const note = new Note({
         title: data.title,
