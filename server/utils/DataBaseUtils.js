@@ -26,6 +26,7 @@ export function createNote(data) {
     return note.save();
 }
 
+//удаление заметки
 export function deleteNote(id) {
     return Note.findById(id).remove();
 }
